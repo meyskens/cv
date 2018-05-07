@@ -1,0 +1,199 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f7eff6;
+    padding: 30px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.wrapper {
+    background: #42A8C0;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-wrapper {
+    background: #edc0db;
+    position: absolute;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    min-height: 1000px;
+    color: #000;
+}
+
+.sidebar-wrapper a {
+    color: #000;
+}
+
+.sidebar-wrapper .profile {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+}
+
+.sidebar-wrapper .name {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.sidebar-wrapper .photo {
+    margin-bottom: 15px;
+    border-radius: 100%;
+    max-height: 150px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: solid white 3px;
+}
+
+.sidebar-wrapper .contact-list .fa {
+    margin-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.sidebar-wrapper .contact-list li {
+    margin-bottom: 10px;
+}
+
+.sidebar-wrapper .side-container {
+    padding: 30px;
+}
+
+.sidebar-wrapper .block-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.sidebar-wrapper h4 {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.sidebar-wrapper .education-container h5 {
+    color: #333;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.sidebar-wrapper .education-container h6 {
+    color: #333;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 3px;
+}
+
+.sidebar-wrapper .education-container .item {
+    margin-bottom: 15px;
+}
+
+.side-container .list {
+    padding-left: 10px;
+}
+
+.list>li>small {
+    font-size: 10px;
+}
+
+.main-wrapper {
+    background: #fff;
+    padding: 60px;
+    padding-left: 300px;
+    min-height: 1400px;
+}
+
+.main-wrapper .section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: #337ab7;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.main-wrapper .skills-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #337ab7;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.main-wrapper .section {
+    padding-bottom: 60px;
+}
+
+.main-wrapper .upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+
+.main-wrapper .job-title {
+    color: #3F4650;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.main-wrapper .time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #97AAC3;
+}
+
+.main-wrapper .company {
+    margin-bottom: 10px;
+    color: #97AAC3;
+}
+
+.main-wrapper .project-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.main-wrapper .projects-section .intro {
+    margin-bottom: 30px;
+}
+
+.main-wrapper .projects-section .item {
+    margin-bottom: 15px;
+}
+
+.main-wrapper .skills {
+    padding-left: 15px;
+}
+
+@media (max-width: 767px) {
+    .sidebar-wrapper {
+        position: static;
+        width: inherit;
+    }
+    .main-wrapper {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1000px) {
+    .main-wrapper {
+        min-height: 1400px;
+    }
+}
