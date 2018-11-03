@@ -23,4 +23,6 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "$DISPATCH_PASSWORD" | docker login -u "$DISPATCH_USERNAME" --password-stdin registry.dispatch.sh
   - if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then docker push $DOCKER_REPO:$ARCH-latest; fi
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ] && [ "$ARCH" == "amd64" ]; then docker tag $DOCKER_REPO:$ARCH-latest registry.dispatch.sh/maartje/cv:$ARCH-latest;docker push registry.dispatch.sh/maartje/cv:$ARCH-latest; fi
