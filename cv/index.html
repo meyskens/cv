@@ -4,15 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
     <title>Maartje Eyskens</title>
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    
     <!--Custom CSS-->
     <link href="css/cv.css" rel="stylesheet">
-    
     <!--Fonts-->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -38,7 +35,6 @@
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto:maartje@eyskens.me">maartje@eyskens.me</a></li>
                     <li class="phone"><i class="fa fa-phone"></i><a href="tel:+32498645061">+32 498 64 50 61</a></li>
                     <li class="website"><i class="fa fa-rss"></i><a href="https://eyskens.me" target="_blank">eyskens.me</a></li>
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/maartjeme/" target="_blank">/in/maartjeme</a></li>
                     <li class="github"><i class="fa fa-github"></i><a href="https://github.com/meyskens" target="_blank">github.com/meyskens</a></li>
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/maartjeme" target="_blank">@maartjeme</a></li>
                 </ul>
@@ -64,6 +60,7 @@
                     <li>Dutch <small>(Native)</small></li>
                     <li>English</li>
                     <li>French</li>
+                    <li>Spanish</li>
                 </ul>
             </div>
             
@@ -113,6 +110,24 @@
                         </p>
                     </div>
                 </div>
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Sr. DevOps Engineer</h3>
+                            <div class="time">September 2018 - Pesent</div>
+                        </div>
+                        <div class="company">source{d}</div>
+                    </div>
+                    <div class="details">
+                        <p>
+                           As DevOps engineer at source{d} I designed and managed serveral Kubernetes clusters as well as other services. These consisted of a mix of bare metal and cloud servers. We used a stack of Terraform and Helm to provision the source{d} products as well as internal workflows for machine learning and data retrieval.
+                        </p>
+                        <p>
+                            To achieve this we developed several Kubernetes Controllers and Terraform Providers. Such as <a href="https://github.com/src-d/kubernetes-local-pv-provisioner">kubernetes-local-pv-provisioner</a>, <a href="https://github.com/src-d/terraform-provisioner-online-rescue">terraform-provisioner-online-rescue</a> and <a href="https://github.com/src-d/terraform-provider-online">terraform-provider-online</a>. 
+                        </p>
+                    </div>
+                </div>
             </section>
             
             <section class="section projects-section">
@@ -127,18 +142,17 @@
                     <span class="project-title"><a href="https://github.com/innovate-technologies/Cast" target="_blank">Cast</a></span> - <span class="project-tagline">Cast is an open source audio streaming server made to be hackable, compatible and innovative written in Node.js.</span>
                 </div>
                 <div class="item">
-                    <span class="project-title"><a href="https://github.com/innovate-technologies/DJ" target="_blank">DJ</a></span> - <span class="project-tagline">DJ is a set of services that combined offers advanced radio automation for Cast.</span>
-                </div>
-                <div class="item">
                     <span class="project-title"><a href="https://github.com/innovate-technologies/control" target="_blank">Control</a></span> - <span class="project-tagline">Control is a modern control panel made in Angular.js for SHOUTca.st's services.</span>
                 </div>
                 <div class="item">
-                    <span class="project-title"><a href="https://github.com/innovate-technologies/Dispatch" target="_blank">Dispatch</a></span> - <span class="project-tagline">Dispatch is a server-orchestration system written in Go. It builds on some of the concepts of Fleet but tries to be more efficient.</span>
+                    <span class="project-title"><a href="https://github.com/meyskens/dispatch-dashboard" target="_blank">Dispatch.sh</a></span> - <span class="project-tagline">Dispatch.sh is a simple platform built on Kubernetes to automate the management and deployment of my personal projetcs.</span>
                 </div>
-                
                 <div class="item">
                     <span class="project-title"><a href="https://drive.google.com/drive/folders/1TL_QT3GAyDRvG678VCnDVJYjQHpfXzE5?usp=sharing" target="_blank">Cooling Monitoring</a></span> - <span class="project-tagline">A total solution for the moniroring of fridges from hardware to software.</span>
                 </div>
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/meyskens/talks" target="_blank">Talks</a></span> - <span class="project-tagline">A collection of slides I made for (internal) talks.</span>
+                    </div>
             </section>
             
             <section class="section projects-section">
@@ -153,11 +167,10 @@
                 <div class="item col-sm-4">
                     <h3 class="skills-title">Languages</h3>
                     <ul class="skills">
-                        <li>Javascipt (ES6)</li>
                         <li>Go</li>
+                        <li>Javascipt (ES6)</li>
                         <li>PHP</li>
                         <li>Python</li>
-                        <li>Swift</li>
                         <li>Objective-C</li>
                         <li>SQL</li>
                         <li>C/C++ (embedded)</li>
@@ -172,8 +185,6 @@
                         <li>Angular 2+</li>
                         <li>React</li>
                         <li>ExpressJS</li>
-                        <li>Ionic</li>
-                        <li>CodeIgniter</li>
                         <li>jQuery</li>
                         <li>Bootstrap</li>
                         <li>Express.js</li>
@@ -184,17 +195,18 @@
                     <h3 class="skills-title">Technologies</h3>
                     <ul class="skills">
                         <li>Linux (Debian, Ubuntu, CentOS, Alpine)</li>
+                        <li>Kubernetes</li>
+                        <li>Terraform</li>
                         <li>Docker</li>
+                        <li>Ansible</li>
+                        <li>Chef</li>
                         <li>MongoDB</li>
                         <li>Nginx</li>
                         <li>OpenResty</li>
                         <li>Etcd</li>
                         <li>OpenStack</li>
-                        <li>Raspberry Pi</li>
-                        <li>Arduino</li>
-                        <li>Autodesk Eagle</li>
                         <li>Google Cloud Platform</li>
-                        <li>Kubernetes</li>
+                        <li>PostgreSQL</li>
                     </ul>
                 </div>
             </section>
