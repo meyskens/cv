@@ -192,8 +192,8 @@ p {
     }
 }
 
-@media (min-width: 767px) and (max-width: 1000px) {
+@media (min-width: 767px) {
     .main-wrapper {
-        min-height: 1400px;
+        min-height: 1650px;
     }
 }
