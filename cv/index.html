@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Maartje Eyskens</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" />
     <!--Custom CSS-->
-    <link href="css/cv.css" rel="stylesheet">
+    <link href="css/cv.css" rel="stylesheet" />
     <!--Fonts-->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
-    <link href="css/font-awesome.css" rel="stylesheet">
-
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono"
+    />
+    <link href="css/font-awesome.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,223 +25,331 @@
     <![endif]-->
   </head>
   <body>
-        <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile">
-                <img class="photo" src="images/maartje.jpg" alt="Photo of Maartje" />
-                <h1 class="name">Maartje Eyskens</h1>
-            </div>
-            
-            <div class="contact side-container">
-                <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:maartje@eyskens.me">maartje@eyskens.me</a></li>
-                    <li class="website"><i class="fa fa-rss"></i><a href="https://eyskens.me" target="_blank">eyskens.me</a></li>
-                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/meyskens" target="_blank">github.com/meyskens</a></li>
-                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/maartjeme" target="_blank">@maartjeme</a></li>
-                </ul>
-            </div>
-            
-            <div class="education-container side-container">
-                <h2 class="block-title">Education</h2>
-                <div class="item">
-                    <h4>Bachelor in Applied Computer Science</h4>
-                    <h5>Thomas More</h5>
-                    <h6>2015 - 2018</h6>
-                </div>
-                <div class="item">
-                    <h4>Science and Maths</h4>
-                    <h5>Sint-Jozefscollege</h5>
-                    <h6>2009 - 2015</h6>
-                </div>
-            </div>
-            
-            <div class="languages-container side-container">
-                <h2 class="block-title">Languages</h2>
-                <ul class="list">
-                    <li>Dutch <small>(Native)</small></li>
-                    <li>English</li>
-                    <li>French</li>
-                    <li>Spanish</li>
-                </ul>
-            </div>
-            
-            
+    <div class="wrapper">
+      <div class="sidebar-wrapper">
+        <div class="profile">
+          <img class="photo" src="images/maartje.jpg" alt="Photo of Maartje" />
+          <h1 class="name">Maartje Eyskens</h1>
         </div>
-        
-        <div class="main-wrapper">
-            
-            <section class="section">
-                <h2 class="section-title">
-                    <span class="fa-stack">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
-                    </span>
-                    Experiences
-                </h2>
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">DevOps/Co-Founder</h3>
-                            <div class="time">2012 - 2019</div>
-                        </div>
-                        <div class="company">Unmuted/SHOUTca.st</div>
-                    </div>
-                    <div class="details">
-                        <p>
-                            Unmuted started out as a blog and web hosting company. With this expertise, we changed our focus to radio streaming services. With only a small investment, we became one of the market leaders in our field. Today we strongly invest in our own platform including the development of our own streaming and automation software
-                        </p>
-                        <p>
-                            I started out managing the server infrastructure of the software we used. I also developed the mobile applications we offer to our clients. I also provided support to clients via support tickets. Later, my development role became more prominent as there was demand for special software - which led to developing our own control panel, streaming server, station automation software and even server orchestration for these new services.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Intern SRE</h3>
-                            <div class="time">March 2018 - June 2018</div>
-                        </div>
-                        <div class="company">GoCardless</div>
-                    </div>
-                    <div class="details">
-                        <p>
-                            For my education I did an internship at the platform team of GoCardless in London. Here I worked on te migration from existing containerized systems running on bare metal to Kubernetes running on Google Cloud Platform. This involved developing developer tooling as well as moving production applications.
-                        </p>
-                    </div>
-                </div>
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Sr. DevOps Engineer</h3>
-                            <div class="time">September 2018 - November 2019</div>
-                        </div>
-                        <div class="company">source{d}</div>
-                    </div>
-                    <div class="details">
-                        <p>
-                           As DevOps engineer at source{d} I designed and managed several Kubernetes clusters as well as other services. These consisted of a mix of bare metal and cloud servers. We used a stack of Terraform and Helm to provision the source{d} products as well as internal workflows for machine learning and data retrieval.
-                        </p>
-                        <p>
-                            In November 2019 source{d} went bankrupt.
-                        </p>
-                        <p>
-                            To achieve this we developed several Kubernetes Controllers and Terraform Providers. Such as <a href="https://github.com/src-d/kubernetes-local-pv-provisioner">kubernetes-local-pv-provisioner</a>, <a href="https://github.com/src-d/terraform-provisioner-online-rescue">terraform-provisioner-online-rescue</a> and <a href="https://github.com/src-d/terraform-provider-online">terraform-provider-online</a>. 
-                        </p>
-                    </div>
-                </div>
-              
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Software Engineer</h3>
-                            <div class="time">January 2020 - Februari 2021</div>
-                        </div>
-                        <div class="company">Jetstack</div>
-                    </div>
-                    <div class="details">
-                        <p>
-                           As software engineer at Jetstack I was team lead for <a href ="https://cert-manager.io">cert-manager</a>, a Kubernetes controller for certificate management. I designed and developed new features, set out long and short term roadm aps and worked with the open source community on running the project. Jetstack was acquired by venafi.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Lecturer</h3>
-                            <div class="time">November 2019 - Present</div>
-                        </div>
-                        <div class="company">Thomas More University of Applied Sciences</div>
-                    </div>
-                    <div class="details">
-                        <p>
-                           Since November 2019 I am teaching web design and electronics to applied computer science students at Thomas More University of Applied Sciences. With a focus on modernizing the courses and helping set up an English course programme.
-                        </p>
-                    </div>
-                </div>
-
-                
-            </section>
-            
-            <section class="section projects-section">
-                <h2 class="section-title">
-                <span class="fa-stack">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-code fa-stack-1x fa-inverse"></i>
-                    </span>
-                    Projects
-                </h2>
-                <div class="item">
-                    <span class="project-title"><a href="https://github.com/jetctack/cert-manager" target="_blank">cert-manager</a></span> - <span class="project-tagline">cert-manager is a Kubernetes controller for X.509 certificate management with external issuers like ACME or internal PKI setup.</span>
-                </div>
-                <div class="item">
-                    <span class="project-title"><a href="https://github.com/innovate-technologies/Cast" target="_blank">Cast</a></span> - <span class="project-tagline">Cast is an open source audio streaming server made to be hackable, compatible and innovative written in Node.js.</span>
-                </div>
-                <div class="item">
-                    <span class="project-title"><a href="https://github.com/meyskens/dispatch-dashboard" target="_blank">Dispatch.sh</a></span> - <span class="project-tagline">Dispatch.sh is a simple platform built on Kubernetes to automate the management and deployment of my personal projetcs.</span>
-                </div>
-                <div class="item">
-                    <span class="project-title"><a href="https://github.com/moedersvoormoeders/" target="_blank">mvm.digital</a></span> - <span class="project-tagline">mvm.digital is an ongoing project on digitalizing Moeders voor Moeders, a charity which I do volunteer work for, making processes more efficient and correct.</span>
-                </div>
-                <div class="item">
-                    <span class="project-title"><a href="https://github.com/meyskens/talks" target="_blank">Talks</a></span> - <span class="project-tagline">A collection of slides I made for (internal) talks.</span>
-                </div>
-            </section>
-            
-            <section class="section projects-section row">
-                <h2 class="section-title">
-                <span class="fa-stack">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
-                    </span>
-                    Skills
-                </h2>
-                
-                <div class="item col-sm-4">
-                    <h3 class="skills-title">Languages</h3>
-                    <ul class="skills">
-                        <li>Go</li>
-                        <li>Javascipt (ES6)</li>
-                        <li>Objective-C</li>
-                        <li>C/C++ (embedded)</li>
-                        <li>PCB Design</li>
-                    </ul>
-                </div>
-                
-                <div class="item col-sm-4">
-                    <h3 class="skills-title">Frameworks</h3>
-                    <ul class="skills">
-                        <li>Vue.js</li>
-                        <li>React</li>
-                        <li>Bootstrap</li>
-                        <li>Express.js</li>
-                    </ul>
-                </div>
-                
-                <div class="item col-sm-4">
-                    <h3 class="skills-title">Technologies</h3>
-                    <ul class="skills">
-                        <li>Linux (Debian, Ubuntu, CentOS, Alpine)</li>
-                        <li>Kubernetes</li>
-                        <li>Terraform</li>
-                        <li>Docker</li>
-                        <li>ACME</li>
-                        <li>X.509</li>
-                        <li>MongoDB</li>
-                        <li>Nginx/OpenResty</li>
-                        <li>Google Cloud Platform</li>
-                        <li>PostgreSQL</li>
-                    </ul>
-                </div>
-            </section>
-            
+        <div class="contact side-container">
+          <ul class="list-unstyled contact-list">
+            <li class="email">
+              <i class="fa fa-envelope"></i
+              ><a href="mailto:maartje@eyskens.me">maartje@eyskens.me</a>
+            </li>
+            <li class="website">
+              <i class="fa fa-rss"></i
+              ><a href="https://eyskens.me" target="_blank">eyskens.me</a>
+            </li>
+            <li class="github">
+              <i class="fa fa-github"></i
+              ><a href="https://github.com/meyskens" target="_blank"
+                >github.com/meyskens</a
+              >
+            </li>
+            <li class="twitter">
+              <i class="fa fa-twitter"></i
+              ><a href="https://twitter.com/maartjeme" target="_blank"
+                >@maartjeme</a
+              >
+            </li>
+          </ul>
         </div>
+
+        <div class="education-container side-container">
+          <h2 class="block-title">Education</h2>
+          <div class="item">
+            <h4>Bachelor in Applied Computer Science</h4>
+            <h5>Thomas More</h5>
+            <h6>2015 - 2018</h6>
+          </div>
+          <div class="item">
+            <h4>Science and Maths</h4>
+            <h5>Sint-Jozefscollege</h5>
+            <h6>2009 - 2015</h6>
+          </div>
+        </div>
+
+        <div class="languages-container side-container">
+          <h2 class="block-title">Languages</h2>
+          <ul class="list">
+            <li>Dutch <small>(Native)</small></li>
+            <li>English</li>
+            <li>French</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-wrapper">
+        <section class="section">
+          <h2 class="section-title">
+            <span class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+            </span>
+            Experiences
+          </h2>
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Lector</h3>
+                <div class="time">November 2019 - Present</div>
+              </div>
+              <div class="company">
+                Thomas More University of Applied Sciences
+              </div>
+            </div>
+            <div class="details">
+              <p>
+                Since November 2019 I am teaching web design, electronics, Linux
+                and DevOps. I design curricula around Linux-based servers and
+                DevOps practices and cloud as well as teaching these classes. I
+                am also responsible for the design and implementation of a staff
+                sheduling tool used in the faculty unit. I am also coach of the
+                Student Information Network a student-led group offering
+                webhosting to students.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Software Engineer</h3>
+                <div class="time">January 2020 - Februari 2021</div>
+              </div>
+              <div class="company">Jetstack</div>
+            </div>
+            <div class="details">
+              <p>
+                As software engineer at Jetstack I was team lead for
+                <a href="https://cert-manager.io">cert-manager</a>, a Kubernetes
+                controller for certificate management. I designed and developed
+                new features, set out long and short term roadm aps and worked
+                with the open source community on running the project. Jetstack
+                was acquired by Venafi.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Sr. DevOps Engineer</h3>
+                <div class="time">September 2018 - November 2019</div>
+              </div>
+              <div class="company">source{d}</div>
+            </div>
+            <div class="details">
+              <p>
+                As DevOps engineer at source{d} I designed and managed several
+                Kubernetes clusters as well as other services. These consisted
+                of a mix of bare metal and cloud servers. We used a stack of
+                Terraform and Helm to provision the source{d} products as well
+                as internal workflows for machine learning and data retrieval.
+              </p>
+              <p>In November 2019 source{d} went bankrupt.</p>
+              <p>
+                To achieve this we developed several Kubernetes Controllers and
+                Terraform Providers. Such as
+                <a
+                  href="https://github.com/src-d/kubernetes-local-pv-provisioner"
+                  >kubernetes-local-pv-provisioner</a
+                >,
+                <a
+                  href="https://github.com/src-d/terraform-provisioner-online-rescue"
+                  >terraform-provisioner-online-rescue</a
+                >
+                and
+                <a href="https://github.com/src-d/terraform-provider-online"
+                  >terraform-provider-online</a
+                >.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Intern SRE</h3>
+                <div class="time">March 2018 - June 2018</div>
+              </div>
+              <div class="company">GoCardless</div>
+            </div>
+            <div class="details">
+              <p>
+                For my education I did an internship at the platform team of
+                GoCardless in London. Here I worked on te migration from
+                existing containerized systems running on bare metal to
+                Kubernetes running on Google Cloud Platform. This involved
+                developing developer tooling as well as moving production
+                applications.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">DevOps/Co-Founder</h3>
+                <div class="time">2012 - 2019</div>
+              </div>
+              <div class="company">Unmuted/SHOUTca.st</div>
+            </div>
+            <div class="details">
+              <p>
+                Unmuted started out as a blog and web hosting company. With this
+                expertise, we changed our focus to radio streaming services.
+                With only a small investment, we became one of the market
+                leaders in our field. Today we strongly invest in our own
+                platform including the development of our own streaming and
+                automation software
+              </p>
+              <p>
+                I started out managing the server infrastructure of the software
+                we used. I also developed the mobile applications we offer to
+                our clients. I also provided support to clients via support
+                tickets. Later, my development role became more prominent as
+                there was demand for special software - which led to developing
+                our own control panel, streaming server, station automation
+                software and even server orchestration for these new services.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section projects-section">
+          <h2 class="section-title">
+            <span class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+            </span>
+            Projects
+          </h2>
+          <div class="item">
+            <span class="project-title"
+              ><a
+                href="https://github.com/jetctack/cert-manager"
+                target="_blank"
+                >cert-manager</a
+              ></span
+            >
+            -
+            <span class="project-tagline"
+              >cert-manager is a Kubernetes controller for X.509 certificate
+              management with external issuers like ACME or internal PKI
+              setup.</span
+            >
+          </div>
+          <div class="item">
+            <span class="project-title"
+              ><a
+                href="https://github.com/itfactory-tm/thomas-bot/"
+                target="_blank"
+                >Thomas Bot</a
+              ></span
+            >
+            -
+            <span class="project-tagline"
+              >Thomas Bot is a high-available Discord bot built in collaboration
+              with students to maintain the official Thomas More Discord
+              servers.</span
+            >
+          </div>
+          <div class="item">
+            <span class="project-title"
+              ><a
+                href="https://github.com/meyskens/CDIBluetooth"
+                target="_blank"
+                >CD-i Bluetooth Adapter</a
+              ></span
+            >
+            -
+            <span class="project-tagline"
+              >The Phillips CD-i Bluetooth adapter is a device that connects
+              modern Bluetooth controllers to the Phillips CD-i player. After
+              designing I produced serveral batches which are now in hands of
+              many CD-i fans.</span
+            >
+          </div>
+          <div class="item">
+            <span class="project-title"
+              ><a href="https://github.com/moedersvoormoeders/" target="_blank"
+                >mvm.digital</a
+              ></span
+            >
+            -
+            <span class="project-tagline"
+              >mvm.digital is an ongoing project on digitalizing Moeders voor
+              Moeders, a charity which I do volunteer work for, making processes
+              more efficient and correct.</span
+            >
+          </div>
+          <div class="item">
+            <span class="project-title"
+              ><a href="https://github.com/meyskens/talks" target="_blank"
+                >Talks</a
+              ></span
+            >
+            -
+            <span class="project-tagline"
+              >A collection of slides I made for (internal) talks.</span
+            >
+          </div>
+        </section>
+
+        <section class="section projects-section row">
+          <h2 class="section-title">
+            <span class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
+            </span>
+            Skills
+          </h2>
+
+          <div class="item col-sm-4">
+            <h3 class="skills-title">Languages</h3>
+            <ul class="skills">
+              <li>Go</li>
+              <li>JavaScript</li>
+              <li>Lua</li>
+              <li>Bash</li>
+              <li>C/C++ (embedded)</li>
+              <li>PCB Design</li>
+            </ul>
+          </div>
+
+          <div class="item col-sm-4">
+            <h3 class="skills-title">Frameworks</h3>
+            <ul class="skills">
+              <li>Vue.js</li>
+              <li>React</li>
+              <li>Bootstrap</li>
+              <li>Express.js</li>
+            </ul>
+          </div>
+
+          <div class="item col-sm-4">
+            <h3 class="skills-title">Technologies</h3>
+            <ul class="skills">
+              <li>Linux (Debian, Ubuntu, CentOS, Alpine)</li>
+              <li>Kubernetes</li>
+              <li>Terraform</li>
+              <li>Docker</li>
+              <li>ACME</li>
+              <li>X.509</li>
+              <li>MongoDB</li>
+              <li>Nginx/OpenResty</li>
+              <li>Google Cloud Platform</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </div>
 
-    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
